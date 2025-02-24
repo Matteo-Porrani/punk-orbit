@@ -25,3 +25,13 @@ npm run serve
 
 5. Open your browser and navigate to `http://localhost:8080` to view the application
 
+6. When you're ready to deploy, run:
+
+```bash
+npm run build
+```
+
+7. The build artifacts will be stored in the `dist` directory
+
+8. The `dist` directory is ready to be deployed to a static file server
+
